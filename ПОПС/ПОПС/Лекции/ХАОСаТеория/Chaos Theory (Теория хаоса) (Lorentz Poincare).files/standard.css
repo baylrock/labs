@@ -1,0 +1,87 @@
+A:link {
+	COLOR: #0000cc
+}
+A:visited {
+	MARGIN: 0px; COLOR: #69008c
+}
+A:hover {
+	MARGIN: 0px; COLOR: #707070
+}
+A:active {
+	COLOR: #ffcc00
+}
+A.red:link {
+	COLOR: #0000ff
+}
+A.red:visited {
+	COLOR: #69008c
+}
+A.red:hover {
+	COLOR: #707070
+}
+A.red:active {
+	COLOR: #ffcc00
+}
+A.accentred:link {
+	COLOR: #9d0637
+}
+A.accentred:visited {
+	COLOR: #9d0637
+}
+A.accentred:hover {
+	COLOR: #707070
+}
+A.accentred:active {
+	COLOR: #ffcc00
+}
+A.accentgreen:link {
+	COLOR: #008000
+}
+A.accentgreen:visited {
+	COLOR: #69008c
+}
+A.accentgreen:hover {
+	COLOR: #707070
+}
+A.accentgreen:active {
+	COLOR: #ffcc00
+}
+A.accentgold:link {
+	COLOR: #ffd700
+}
+A.accentgold:visited {
+	COLOR: #69008c
+}
+A.accentgold:hover {
+	COLOR: #707070
+}
+A.accentgold:active {
+	COLOR: #ffcc00
+}
+P {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 9pt; MARGIN: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+.L {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 9pt; MARGIN: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+.S {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 9pt; MARGIN: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+.SS {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 8pt; MARGIN: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial Narrow; TEXT-ALIGN: left
+}
+H1 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 14pt; MARGIN: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 100%; FONT-FAMILY: Arial; TEXT-ALIGN: center
+}
+H2 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: normal; FONT-SIZE: 9pt; MARGIN: 0px; COLOR: #9d0637; TEXT-INDENT: 0px; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+H3 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; MARGIN: 0px; TEXT-TRANSFORM: uppercase; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+H4 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; MARGIN: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+LI {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 9pt; MARGIN: 0px 0px 0px 5px; TEXT-INDENT: 0px; LINE-HEIGHT: 125%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}

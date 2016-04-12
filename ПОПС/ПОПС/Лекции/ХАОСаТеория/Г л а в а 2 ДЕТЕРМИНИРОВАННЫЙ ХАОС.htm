@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node2.html -->
+<HTML><HEAD><TITLE>Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС</TITLE><!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<META content="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС" name=description>
+<META content=uch3lw name=keywords>
+<META content=document name=resource-type>
+<META content=global name=distribution>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR>
+<META http-equiv=Content-Style-Type content=text/css><LINK 
+href="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/uch3lw.css" rel=STYLESHEET><LINK 
+href="node6.html" rel=next><LINK href="node1.html" rel=previous><LINK 
+href="uch3lw.html" rel=up><LINK href="node3.html" rel=next></HEAD>
+<BODY bgColor=#ffffff><!--Navigation Panel--><A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node3.html" 
+name=tex2html36><IMG height=24 alt=next 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/next.gif" width=37 align=baseline 
+border=0></A> <A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/uch3lw.html" 
+name=tex2html32><IMG height=24 alt=up 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/up.gif" width=26 align=baseline 
+border=0></A> <A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node1.html" 
+name=tex2html26><IMG height=24 alt=previous 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/prev.gif" width=63 align=baseline 
+border=0></A> <A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node7.html" 
+name=tex2html34><IMG height=24 alt=contents 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/contents.gif" width=65 
+align=baseline border=0></A> <BR><B>Next:</B> <A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node3.html" 
+name=tex2html37>Некоторые сведения из нелинейной</A><B> Up:</B> <A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/uch3lw.html" 
+name=tex2html33>СЛУЧАЙНЫЕ ПРОЦЕССЫ И ПОЛЯ</A><B> Previous:</B> <A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node1.html" 
+name=tex2html27>А Н Н О</A> &nbsp; <B><A 
+href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node7.html" 
+name=tex2html35>Contents</A></B> <BR><BR><!--End of Navigation Panel-->
+<H1><A name=SECTION00020000000000000000>Г л а в а 2<BR>ДЕТЕРМИНИРОВАННЫЙ 
+ХАОС</A></H1>
+<P>В 1963 г. Г. Лоренц, решая задачу определения конвективных потоков в слое 
+жидкости, подогреваемом снизу, обнаружил, что простая автономная динамическая 
+система из трех дифференциальных уравнений<BR></P>
+<DIV align=right><!-- MATH
+ \begin{equation}
+\frac{dx}{dt}=\sigma \cdot (y-x),\quad
+\frac{dy}{dt}=r\cdot x-y-xz,\quad
+\frac{dz}{dt}=xy-b\cdot z,
+\end{equation}
+ -->
+<TABLE width="100%" align=center>
+  <TBODY>
+  <TR vAlign=center>
+    <TD noWrap align=middle><IMG height=39 
+      alt="\begin{displaymath}&#13;&#10;\frac{dx}{dt}=\sigma \cdot (y-x),\quad&#13;&#10;\frac{dy}{dt}=r\cdot x-y-xz,\quad&#13;&#10;\frac{dz}{dt}=xy-b\cdot z,\end{displaymath}" 
+      src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img1.gif" width=400 
+    border=0></TD>
+    <TD align=right width=10>(1)</TD></TR></TBODY></TABLE><BR clear=all></DIV>
+<P></P>при некоторых значениях параметров <IMG height=14 alt=$\sigma$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img2.gif" width=14 align=baseline 
+border=0> , <IMG height=14 alt=$r$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img3.gif" width=12 align=baseline 
+border=0> и <IMG height=15 alt=$b$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img4.gif" width=11 align=baseline 
+border=0> (обеспечивающих диссипативность системы (1)) имеет в пространстве 
+состояний <IMG height=31 alt=$(x,y,z)$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img5.gif" width=56 align=center 
+border=0> множество меньшей размерности, к которому при <IMG height=14 
+alt="$t\to \infty$" src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img6.gif" 
+width=51 align=baseline border=0> стремятся траектории системы (1), но это 
+множество (аттрактор) настолько запутано, что траектории, исходящие из соседних 
+точек в начальный момент, попадают по истечении достаточно большого времени на 
+аттрактор в точки, отстоящие одна от другой на очень большие расстояния. Поэтому 
+любой сбой в задании начальных значений при повторении расчетов, обычный в нашей 
+практической деятельности и неизбежный ввиду ограниченной точности, с какой мы 
+можем задавать, например, иррациональные числа, -- этот сбой приводит к тому, 
+что при повторении расчетов мы не получаем однозначного ответа, а лишь некоторое 
+"облако" результатов. Это удивительно -- ведь система состоит всего из трех 
+уравнений, т.е. всего три степени свободы, и тем не менее, решая ее для 
+достаточно большого <IMG height=14 alt=$t$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img7.gif" width=10 align=baseline 
+border=0> , мы получаем некоторую совокупность чисел, описать которые можем 
+только вероятностными методами. Соответствующее предельное множество 
+(детерминированной природы) называется <I>странным аттрактором</I>. 
+<P>Можно себе представлять странный аттрактор динамической системы с конечным 
+числом степеней свободы как некий клубок ниток в пространстве состояний системы, 
+а процесс вычисления от начального значения как процесс протыкания этого клубка 
+спицей. Попробуйте спицей попасть дважды в одно и то же место в глубине клубка, 
+хотя нитка-то намотана на клубок всего одна!</P>
+<P>С открытием странных аттракторов повеяло надеждой, что наконец-то основная 
+нерешенная проблема современной гидродинамики -- проблема турбулентности -- 
+получит ответ. Проблема поставлена в конце XIX века Рейнольдсом, 
+экспериментировавшим с окрашиваемой струйкой в течении жидкости в круглой трубе. 
+При достижении некоторого критического числа Рейнольдса эта струйка окрасит весь 
+объем жидкости в результате перемешивания соседних струек жидкости (число 
+Рейнольдса <IMG height=15 alt=$\textrm{Re}$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img8.gif" width=23 align=baseline 
+border=0> определяется как произведение диаметра трубы на среднюю скорость 
+течения и плотность жидкости, отнесенное к молекулярной вязкости жидкости). При 
+меньших значениях <IMG height=15 alt=$\textrm{Re}$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img8.gif" width=23 align=baseline 
+border=0> окрашенная струйка отчетливо течет параллельно стенкам (ламинарный 
+режим), но при превышении некоторого порогового значения <IMG height=29 
+alt=$\textrm{Re}_0$ src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img9.gif" 
+width=30 align=center border=0> она начинает отклоняться от осевого направления 
+в разные стороны и при дальнейшем увеличении <IMG height=15 alt=$\textrm{Re}$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img8.gif" width=23 align=baseline 
+border=0> ведет себясовершенно хаотически (турбулентный режим).&nbsp; </P>
+<P>Для изучения хаотических режимов и создана теория случайных процессов и 
+полей. С ее помощью на уровне первых моментов описать турбулентное течение 
+принципиально не составляет затруднений (хотя велики технические трудности). На 
+уровне первого момента (средней скорости течения) создано много полуэмпирических 
+теорий турбулентности, в которых для замыкания уравнений для поля скоростей 
+идавлений используются различные гипотезы, представляющие корреляционную матрицу 
+через функции от компонент средней скорости или ее пространственных производных 
+с эмпирическими параметрами (см. наиболее продвинутую в этом направлении 
+монографию В. В. Новожилова и В. А. Павловского [1]). В более общем случае 
+делаются попытки изучать турбулентные течения методами теории случайныхполей, но 
+результаты, имеющие прикладное значение, получены пока только для специального 
+вида таких полей (например, изотропных), хотя, строго говоря, такие поля в 
+природе не наблюдаются. Таким образом, решенная принципиально проблема описания 
+турбулентных течений наталкивается на технические трудности, преодолеваемые пока 
+различными искусственными приемами.&nbsp; </P>
+<P>Вторая сторона проблемы турбулентности -- о возникновении стохастичности в 
+первоначально ламинарном течении -- вполне возможно будет решена с помощью 
+странных аттракторов, которые в настоящее время интенсивно ищутся для уравнений 
+движения жидкости. Мы ограничимся решением "проблемы турбулентности" для атома 
+газа, блуждающего в щели, образованной двумя параллельными стенками. Его 
+движение сведется к итерационной схеме<BR></P>
+<DIV align=right><!-- MATH
+ \begin{equation}
+x_{n+1}=f(x_n),\quad n=0,1,2,\ldots ,\quad
+x_n\in [0,1],
+\end{equation}
+ -->
+<TABLE width="100%" align=center>
+  <TBODY>
+  <TR vAlign=center>
+    <TD noWrap align=middle><IMG height=28 
+      alt="\begin{displaymath}x_{n+1}=f(x_n),\quad n=0,1,2,\ldots ,\quad&#13;&#10;x_n\in [0,1],\end{displaymath}" 
+      src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img10.gif" width=311 
+      border=0></TD>
+    <TD align=right width=10>(2)</TD></TR></TBODY></TABLE><BR clear=all></DIV>
+<P></P>где <IMG height=31 alt=$f(x)$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img11.gif" width=35 align=center 
+border=0> -- нелинейнаяфункция.&nbsp; Роль времени здесь играет натуральное 
+число<IMG height=14 alt=$n$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img12.gif" width=14 align=baseline 
+border=0> , а уравнение (2) играет роль уравнения динамики системы в 
+пространстве состояний <IMG height=31 alt="$x\in [0,1]$" 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img13.gif" width=64 align=center 
+border=0> , <IMG height=28 alt=$x_0$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img14.gif" width=20 align=center 
+border=0> -- начальное состояние системы.&nbsp; 
+<P>Детерминированным хаосом мы назовем предельное поведение схемы (2) на 
+странном аттракторе при <IMG height=14 alt="$n\to \infty$" 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img15.gif" width=54 align=baseline 
+border=0> в случае ее реализации на ЭВМ. Точные определения детерминированного 
+хаоса см. в учебнике [2]. Подчеркнем, что если бы точность вычислений не была 
+ограничена, повторные итерации по схеме (2) от любой допустимой начальной точки 
+<IMG height=28 alt=$x_0$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img14.gif" width=20 align=center 
+border=0> приводили бы при сколь угодно больших <IMG height=14 alt=$n$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img12.gif" width=14 align=baseline 
+border=0> к одному и тому же результату <IMG height=28 alt=$x_n$ 
+src="Г л а в а 2 ДЕТЕРМИНИРОВАННЫЙ ХАОС.files/img16.gif" width=22 align=center 
+border=0> на странном аттракторе, несмотря на сложную (запутанную) его 
+структуру. Лишь ошибки округления чисел на некотором шаге итерационного процесса 
+переводят конечный результат вычисления на другое значение того же самого 
+аттрактора, которое, в силу странности аттрактора, может отстоять от требуемого 
+очень далеко.&nbsp; </P>
+<P>Мы включили в пособие по случайным процессам материал этой главы для 
+демонстрации возникновения случайности в детерминированном процессе. 
+Детерминированные процессы можно рассматривать как вырожденный случай случайных, 
+когда стохастическая мера сосредоточена на единственной кривой в пространстве 
+состояний, т.е. когда траектория процесса с вероятностью единица известная 
+кривая. Тем не менее, даже если начальные значенине имеют вероятности разброса, 
+конечные ее значения могут описываться только вероятностными методами.</P>
+<P><BR></P>
+<HR>
+<!--Table of Child-Links--><A name=CHILD_LINKS><STRONG>Subsections</STRONG></A> 
+<UL>
+  <LI><A href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node3.html" 
+  name=tex2html38>Некоторые сведения из нелинейной динамики</A> 
+  <LI><A href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node4.html" 
+  name=tex2html39>Рассеяние атомов разреженного газа<BR>на выходе из достаточно 
+  длинной щели</A> 
+  <LI><A href="http://www.math.spbu.ru/ru/mmeh/Courses/uch3lw/node5.html" 
+  name=tex2html40>Восстановление итерационной схемы<BR>по плотности инвариантной 
+  меры</A> </LI></UL><!--End of Table of Child-Links--><BR>
+<HR>
+
+<ADDRESS>2002-12-11</ADDRESS></BODY></HTML>

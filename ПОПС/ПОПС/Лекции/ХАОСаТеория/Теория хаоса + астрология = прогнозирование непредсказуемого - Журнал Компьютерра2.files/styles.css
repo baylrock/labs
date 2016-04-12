@@ -1,0 +1,258 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 82% Tahoma, Arial, Helvetica; COLOR: black; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+P {
+	MARGIN-BOTTOM: 1em
+}
+SMALL {
+	FONT-SIZE: 8pt
+}
+H1 {
+	FONT-SIZE: 160%
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; MARGIN: 0px
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%
+}
+A {
+	COLOR: #004982
+}
+.content A:visited {
+	COLOR: #750082
+}
+A:hover {
+	COLOR: red
+}
+#top {
+	MARGIN-TOP: 5px; FONT-SIZE: 8pt; WIDTH: 770px
+}
+#topmain {
+	BACKGROUND: url(http://img.computerra.ru/images/n/topback-new.gif) #276595; WIDTH: 100%; BORDER-BOTTOM: white 1px solid; POSITION: relative; HEIGHT: 62px
+}
+#topmain #logo {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://img.computerra.ru/images/n/logo.gif) no-repeat 11px 3px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 418px; PADDING-TOP: 0px; HEIGHT: 60px
+}
+#topmain H1 {
+	DISPLAY: none
+}
+#topmain #logo SPAN {
+	DISPLAY: none
+}
+#topmain .inputbox {
+	RIGHT: 15px; COLOR: white; POSITION: absolute; TOP: 12px
+}
+#topmain INPUT {
+	FONT: 8pt Tahoma
+}
+#topmenu {
+	BACKGROUND: url(http://img.computerra.ru/images/n/menu-a.gif) #276595; WIDTH: 100%; COLOR: white; HEIGHT: 23px
+}
+#topmenu-b {
+	PADDING-LEFT: 11px
+}
+#topmenu A {
+	BORDER-RIGHT: #276595 1px solid; PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 4px; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: white; PADDING-TOP: 4px; HEIGHT: 15px; TEXT-DECORATION: none
+}
+#topmenu A:hover {
+	BACKGROUND: url(http://img.computerra.ru/images/n/menu-c.gif); TEXT-DECORATION: underline
+}
+#topmenu .active {
+	FONT-WEIGHT: bold
+}
+#toptabs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 14px
+}
+#toptabs A {
+	DISPLAY: block; FLOAT: left; WIDTH: 100px; HEIGHT: 14px
+}
+#toptabs UL {
+	CLEAR: left; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; HEIGHT: 14px
+}
+#toptabs UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 14px
+}
+#toptabs UL LI A {
+	DISPLAY: block; WIDTH: 100px; HEIGHT: 14px
+}
+#toptabs UL LI A SPAN {
+	DISPLAY: none
+}
+#ttabcterra {
+	BACKGROUND: url(http://www.computerra.ru/images/n/tab-cterra-a-new.gif)
+}
+#ttabbmag {
+	BACKGROUND: url(http://www.computerra.ru/images/n/tab-biz-b-new.gif)
+}
+#ttabclenta {
+	BACKGROUND: url(http://www.computerra.ru/images/n/tab-lenta-b-new.gif)
+}
+#ttabtlab {
+	BACKGROUND: url(http://www.computerra.ru/images/n/tab-terra-b-new.gif)
+}
+#ttabcio {
+	BACKGROUND: url(http://www.computerra.ru/images/n/tab-cio-b-new.gif)
+}
+#ttabhomepc {
+	BACKGROUND: url(http://www.computerra.ru/images/n/tab-homepc-b-new.gif)
+}
+#page {
+	WIDTH: 770px; POSITION: absolute
+}
+#main {
+	WIDTH: 100%; POSITION: absolute
+}
+#main2 {
+	WIDTH: 100%; POSITION: absolute
+}
+.content {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 250px; MARGIN-RIGHT: 125px; PADDING-TOP: 0px
+}
+#article {
+	FONT-SIZE: 100%
+}
+#article TD {
+	FONT-SIZE: 10pt
+}
+#article H1 {
+	MARGIN-TOP: 0px
+}
+#sidebar {
+	FONT-SIZE: 8pt; LEFT: 5px; WIDTH: 240px; POSITION: absolute; TOP: 5px
+}
+P.pagelist {
+	FONT-SIZE: 8pt; WIDTH: 370px
+}
+P.pagelist TABLE {
+	FONT-SIZE: 8pt; WIDTH: 95%
+}
+#bottom {
+	BORDER-TOP: #d5d5d5 1px dashed; FONT-SIZE: 8pt; MARGIN: 5px; WIDTH: 100%; COLOR: #888888; POSITION: absolute
+}
+#bottom A:visited {
+	COLOR: #004982
+}
+#btitle {
+	BACKGROUND: url(http://img.computerra.ru/images/n/gradus.gif) white no-repeat right top; WIDTH: 250px; HEIGHT: 170px
+}
+#btitle2 {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; PADDING-TOP: 40px
+}
+#binfo {
+	LEFT: 270px; POSITION: absolute; TOP: 4px
+}
+#tophban {
+	MARGIN-BOTTOM: 5px; WIDTH: 770px; TEXT-ALIGN: center
+}
+#hban600 {
+	PADDING-BOTTOM: 5px; MARGIN: 5px 130px 5px 5px; TEXT-ALIGN: center
+}
+.hban468 {
+	MARGIN: 5px 5px 5px 200px; TEXT-ALIGN: center
+}
+#skyright {
+	LEFT: 650px; POSITION: absolute; TOP: 5px
+}
+#banbox {
+	BACKGROUND: #efefef; MARGIN-BOTTOM: 15px; WIDTH: 240px; TEXT-ALIGN: center
+}
+#sidebar .item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #eaedef; MARGIN-BOTTOM: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#sidebar .item H3 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 10px; BACKGROUND: url(http://img.computerra.ru/images/sbhitem.gif) #326f9e no-repeat left top; PADDING-BOTTOM: 4px; MARGIN: 0px; FONT: bold 8pt Tahoma; TEXT-TRANSFORM: uppercase; COLOR: white; PADDING-TOP: 4px
+}
+#sidebar .item H3 A {
+	COLOR: white; TEXT-DECORATION: none
+}
+#sidebar .item .ii {
+	BORDER-RIGHT: #7d9cb4 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: medium none; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; BORDER-LEFT: #7d9cb4 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #7d9cb4 1px solid
+}
+#sidebar .item2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #eaedef; MARGIN-BOTTOM: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#sidebar .item2 H3 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 10px; BACKGROUND: url(http://img.computerra.ru/images/sbhitem.gif) #329e6f no-repeat left top; PADDING-BOTTOM: 4px; MARGIN: 0px; FONT: bold 8pt Tahoma; TEXT-TRANSFORM: uppercase; COLOR: white; PADDING-TOP: 4px
+}
+#sidebar .item2 H3 A {
+	COLOR: white; TEXT-DECORATION: none
+}
+#sidebar .item2 .ii {
+	BORDER-RIGHT: #7d9cb4 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: medium none; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; BORDER-LEFT: #7d9cb4 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #7d9cb4 1px solid
+}
+.content .item {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 8px; MARGIN: 8px 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #d5d5d5 1px dashed
+}
+.content .item .item {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+#sidebar .item .item {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+.content .item2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 8px; MARGIN: 8px 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #d5d5d5 1px dashed
+}
+.content .item2 .item2 {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+#sidebar .item2 .item2 {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none
+}
+.info {
+	FONT-SIZE: 7pt; MARGIN-LEFT: 10px; TEXT-TRANSFORM: uppercase; COLOR: #880000
+}
+.rubr {
+	FONT-SIZE: 7pt; TEXT-TRANSFORM: uppercase; COLOR: #880000
+}
+.morelinks {
+	CLEAR: both
+}
+.morelinks UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.morelinks LI {
+	LIST-STYLE-TYPE: none
+}
+.textad {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 25px; BACKGROUND: #efefef; PADDING-BOTTOM: 5px; MARGIN: 6px 0px 1.5em; PADDING-TOP: 5px
+}
+.textad LI {
+	LIST-STYLE-IMAGE: url(http://img.computerra.ru/images/n/li.gif); MARGIN: 0.5em 0px
+}
+A.permalink {
+	FONT-SIZE: 7pt; COLOR: #880000; TEXT-DECORATION: none
+}
+.oktext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #005000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.errortext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: red; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
